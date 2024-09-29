@@ -4,7 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
-    <title>Weather app</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Weather App</title>
   </head>
-  <body></body>
+  <body>
+    <main class="main-container">
+      <div class="weather-box">
+        <header class="input-header">
+          <input type="text" placeholder="Search city" id="search-city">
+          <button><span class="material-symbols-outlined">
+            search
+            </span></button>
+        </header>
+        <section class="weather-info">
+          <div class="weather-location-date">
+            <div class="location">
+              <span class="material-symbols-outlined">
+                location_on
+                </span>
+                <h4 class="current-country">Surat</h4>
+            </div>
+            <h4 class="current-date reg-txt">wed, 07 Aug</h4>
+          </div>
+        </section>
+      </div>
+    </main>
+    
+  </body>
 </html>
